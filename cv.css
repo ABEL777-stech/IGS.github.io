@@ -1,0 +1,83 @@
+body{
+    background: rgb(19, 18, 18);
+}
+
+.page{
+  width:780px;
+  margin: auto;
+  font-family: "Source sans Pro",Calibri,Tahoma, sans-serif;
+  font-size: 16px;
+  border:5px solid rgb(47, 113, 255);
+  border-radius:10px;
+  box-shadow:2px 5px 4px black;
+  padding: 20px;
+ background-color:rgb(236, 240, 240);
+
+}
+img {
+    height: auto;
+    width: 150px;
+    border-radius: 20px;
+}
+.infophoto{
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    
+}
+.photo{
+  
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.section:hover{
+    color: rgb(0, 170, 91)
+}
+.sec-gauche{
+    float:left;
+    font-weight: bold;
+    font-size:15px;
+}
+.sec-droite{
+    margin-left: 150px;
+    margin-top: 37px;
+}
+h2{
+ font-size: 30px;
+ color: #3388BB;
+ border: 3px solid #000000;
+ border-radius: 50px;
+ text-align: center;
+ background: black;
+}
+.duree{
+ font-weight: normal;
+ font-style: italic;
+ font-size:16px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 17px;
+}
+#forma-gauche p{
+    margin-bottom: 37px;
+}
+#exp-gauche p{
+    margin-top:25px;
+}
+#lang-droite-sub p{
+    margin-top:38px;
+}
+#lang-droite{
+    line-height:21px;
+}
+#interet-droite {
+    margin-top:49px;
+}
+strong{
+    font-size:25px;
+}
